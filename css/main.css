@@ -1,0 +1,169 @@
+*{margin: 0;
+ padding: 0;
+box-sizing: border-box;}
+.navbar-light .navbar-nav .nav-link.active,
+.navbar-light .navbar-nav .show>.nav-link {
+    /* color: rgba(0, 0, 0, .9); */
+    color: green;}
+.navbar-light .navbar-nav .nav-link {
+    color: rgb(0, 0, 0);}
+.navbar-light .navbar-text a,
+.navbar-light .navbar-text a:focus,
+.navbar-light .navbar-text a:hover {
+    color: white;}
+.navbar-text a {
+    background-color:palevioletred;
+}
+.navbar-light .navbar-brand {
+    color:palevioletred;
+    font-size: 2rem;
+}
+
+.image-one img {
+    width: 400px;
+    height: 400px;
+}
+.center{
+height: 100vh;
+background-color: palevioletred;}
+
+.header{height: 500px;}
+.home-content{background-color: palevioletred;}
+.card{width: 40%;}
+@media screen and (min-width: 400px) and (max-width:1100px) {
+ 
+    .header{height: 180vh;}
+   
+    .img-gallery{padding: 20px 0;}
+    .card{width: 85%;}
+}
+/*//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+.about-me .about-h2,
+.skills .about-h2 ,
+.portfolio .about-h2,
+.quality .about-h2,
+.contact .about-h2
+{
+    color: palevioletred;
+    font-weight: 700;
+    width: 400px;
+    padding-bottom: 50px;
+
+}
+.quality .about-h2{font-size: 24px;}
+.about-me .about-h2::after,
+.skills .about-h2::after,
+.portfolio .about-h2::after,
+.quality .about-h2::after,
+.contact .about-h2::after
+ {
+    content: "About";
+    color: white;
+    font-size: 100px;
+    text-shadow: 0 0 1px black;
+    position: absolute;
+    left: 10px;
+    bottom: 10px;
+    z-index: -1;
+    text-transform: uppercase;
+}
+.skills .about-h2::after {
+    content: "skills";
+    left: 25px;
+}
+.portfolio .about-h2::after {
+    content: "gallery";
+    left: -20px;
+}
+.quality .about-h2::after{
+    content:'quality';
+    left: -30px;
+}
+.contact .about-h2::after{
+    content: 'contact';
+    left: -40px;
+}
+.about-img img {
+    width: 250px;
+    height: 400px;
+}
+
+.text {
+    
+    padding-top: 100px;
+}
+
+.about-me .row .about-me-text h3 {
+    color: rgba(27, 26, 26, 0.8);
+    font-weight: 500;
+}
+ul{list-style-type: none;}
+
+.progress::before{
+position: absolute;
+  top: -20px;
+  left: 5px;
+}
+.progress::after{
+    position: absolute;
+    content: '';
+  top: -20px;
+  right: 5px;
+}
+.before1::before{
+    content: 'Html';
+}
+.after1::after{
+    content: '100%';
+}
+
+.before2::before{
+    content: 'Css';
+}
+.after2::after{
+    content: '90%';
+}
+
+.before3::before{
+    content: 'Bootstrap';
+}
+.after3::after{
+    content: '85%';
+}
+
+.before4::before{
+    content: 'Tailwind';
+}
+.after4::after{
+    content: '85%';
+}
+.before5::before{
+    content: 'Javascript';
+}
+.after5::after{
+    content: '80%';
+}
+.before6::before{
+    content: 'Vue Js';
+}
+.after6::after{
+    content: '70%';
+}
+.edu{position: relative;}
+.edu::before{position: absolute;
+content: '';
+width: 15px;
+height: 15px;
+top: 0px;
+left: -30px;
+border-radius: 50%;
+border: 1px solid black;}
+.edu::after{position: absolute;
+    content: '';
+    width: 1px;
+    height: 100px;
+    top: 14px;
+    left: -23px;
+  border: 1px solid grey; }
+    .edulong::after{height: 220px;}
+   
